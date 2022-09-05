@@ -1,13 +1,47 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.creditCard{
+  width: 400px;
+  height: auto;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  border: 1px solid gray;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #303C74;
+  color: white;
+}
+
+.creditCard__header{
+  margin-left: 180px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.creditCard__number > span {
+ font-size: 25px;
+ margin-left: 35px;
+}
+
+.creditCard__numberSmall{
+  margin-left: 35px;
+  font-size: 10px;
+}
+p > small{
+  margin-left: 150px;
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.creditCard__name{
+  margin-top: 10px;
+  margin-left: 35px;
+
 }
